@@ -101,6 +101,13 @@ Hooks.once("init", function () {
       maxHp: "health.max",
       useWounds: false,
     },
+    "dragonbane": {
+      creatureType: "kin.name",
+      creatureTypeCustom: "",
+      currentHp: "hitPoints.value",
+      maxHp: "hitPoints.max",
+      useWounds: false,
+    }
   }
 
   /**************************
